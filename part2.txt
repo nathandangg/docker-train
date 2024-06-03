@@ -1,0 +1,7 @@
+  298  docker-compose up
+  304  docker compose down
+  305  docker compose up -d
+  306  docker compose down
+  307  docker ps -a
+  308  history
+

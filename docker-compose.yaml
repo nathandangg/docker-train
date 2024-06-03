@@ -1,0 +1,11 @@
+#version: '3.8'
+
+services:
+  service-1:
+    image: busybox
+    volumes:
+      - ./dummy:/code
+    command: echo Here is busybox
+
+  service-2:
+    image: hello-world

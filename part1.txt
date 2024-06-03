@@ -1,0 +1,12 @@
+  244  docker pull busybox
+  245  docker run busybox echo "hello world"
+  246  docker run -it --rm busybox
+  247  docker ps -a
+  248  docker run -d busybox sleep infinity
+  253  docker exec -it stoic_gould sh
+  254  docker stop stoic_gould
+  266  docker rm stoic_gould gallant_lalande
+  267  docker rmi busybox
+  268  history
+
+
